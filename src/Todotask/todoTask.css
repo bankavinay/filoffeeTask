@@ -1,0 +1,64 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: rgb(233, 154, 230);
+}
+
+h1 {
+  text-align: center;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-form input,
+.task-form textarea,
+.task-form select,
+.task-form button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.task-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.task-list th,
+.task-list td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.task-list button {
+  margin-right: 5px;
+}
+
+.task-list th {
+  background-color: #f4f4f4;
+}
+
+.button1 {
+  background-color: rgb(13, 214, 13);
+  border: 0px solid;
+}
+.button2 {
+  background-color: aqua;
+  border: 0px solid;
+  padding: 5px;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+.button3 {
+  background-color: red;
+  border: 0px solid;
+  padding: 5px;
+  color: #f4f4f4;
+}
